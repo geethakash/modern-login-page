@@ -106,7 +106,7 @@ body {
     background-color:#8d26ed ;
     border:0;
     float: right;
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: pointer;
     transition: 0.5s;
 }
