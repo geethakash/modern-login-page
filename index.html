@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+    <style>
+        @media only screen and (max-width: 800px) {
+            .leftPanel {
+                display: none;
+            }
+
+            .rightPanel {
+                width: 100%;
+            }
+
+            .loginForm {
+                padding-top: 5px;
+                width: 75%;
+                height: 300px;
+            }
+        }
+
+        @media screen and (min-width: 1900px) {
+            .txtInput {
+                margin-bottom: 20px;
+            }
+
+            .loginForm {
+                height: 40%;
+            }
+
+            .btnLogin {
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <section>
+        <div class="leftPanel">
+            <h1 class="welcomeTxt">WELCOME</h1>
+            <img class="authSideImg" src="./img/login-authentication.svg" alt="Login Authentication">
+            <div class="custom-shape-divider-bottom-1629894577">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+        <div class="rightPanel">
+            <form class="loginForm" action="" method="post">
+                <h2 class="loginFormH2">Log In</h2>
+                <!-- <div class="inputInDiv"> -->
+                <input class="txtInput" type="text" name="username" id="username" placeholder="Username">
+                <!-- </div> -->
+                <!-- <div class="inputInDiv"> -->
+                <input class="txtInput" type="password" name="username" id="password" placeholder="Password">
+                <a href="#" class="forgotlink">Forgot Password?</a>
+                <!-- </div> -->
+                <input class="btnLogin" type="submit" value="Login">
+            </form> 
+            <p class="haveacclbl">Need an account? <a href="#" class="reglink" style="">Register</a></p>
+        </div>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
