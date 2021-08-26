@@ -37,6 +37,7 @@ body {
     justify-content: center;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0px 0px 7px 3px #525252;
 }
 
 .drklightsvg {
