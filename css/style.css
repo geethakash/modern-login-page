@@ -25,27 +25,38 @@ body {
     /* padding: 5px; */
     margin: 20px;
     right: 0;
+    padding: 3px;
     background-color: #2a2e35ab;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 3px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .drklightsvg {
     margin-top: 3px;
     width: 1.5em;
     height: 1.5em;
-    color: rgb(208, 208, 208);
-    transition: color 0.5s;
+    color: rgb(150, 150, 150);
+    transition:  0.5s;
 
 }
 
 .drklightsvg:hover {
     color: white;
-    transition: color 0.5s;
+    transition: 0.5s;
 }
+
+.darksvg {
+    color:rgb(56, 56, 56);
+}
+.darksvg:hover {
+    color: white;
+}
+
+
 
 .leftPanel {
     background-color: #2a2e35ab;
@@ -219,4 +230,3 @@ body {
         height: 500px;
     }
 }
-
