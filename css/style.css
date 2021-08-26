@@ -8,11 +8,46 @@ body {
     overflow:hidden;
     /* font-family: 'Courier New', Courier, monospace; */
     font-family: 'Sofia Pro', sans-serif;
+    transition: background-color 1s;
                                                 
+}
+.light-theme {
+    transition: background-color 1s;
+    background-color: rgba(255, 255, 255, 0.713);
+    color: black;
+}
+
+.dark-toggle {
+    /* z-index: 10; */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    /* padding: 5px; */
+    margin: 20px;
+    right: 0;
+    background-color: #2a2e35ab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.drklightsvg {
+    margin-top: 3px;
+    width: 1.5em;
+    height: 1.5em;
+    color: rgb(208, 208, 208);
+    transition: color 0.5s;
+
+}
+
+.drklightsvg:hover {
+    color: white;
+    transition: color 0.5s;
 }
 
 .leftPanel {
-    background-color: #2a2e35;
+    background-color: #2a2e35ab;
     float: left;
     width: 50%;
     height: 100vh;
@@ -48,6 +83,7 @@ body {
 .loginForm {
     padding: 0px 30px 30px 30px;
     background-color: #2a2e35;
+    color:white;
     border-radius: 5px;
     width: 50%;
     height: 50vh;
@@ -61,6 +97,7 @@ body {
 }
 
 .loginFormH2 {
+
     text-align: center;
     margin-top: 0px;
     font-size: 35px;
