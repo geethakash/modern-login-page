@@ -1,19 +1,23 @@
 @import url('http://fonts.cdnfonts.com/css/sofia-pro');
                               
 body {
-    background-color: #12181b;
-    color: white;
     margin: 0px;
     border: 0;
     overflow:hidden;
     /* font-family: 'Courier New', Courier, monospace; */
     font-family: 'Sofia Pro', sans-serif;
-    transition: background-color 1s;
                                                 
 }
+.dark-theme {
+    background-color: #12181b;
+    color: white;
+    transition: 1s;
+
+
+}
 .light-theme {
-    transition: background-color 1s;
-    background-color: rgba(255, 255, 255, 0.713);
+    transition: 2s;
+    background-color: rgba(255, 255, 255, 0.755);
     color: black;
 }
 
